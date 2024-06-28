@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main{
+   
+   width: 100%;
+   height: 500px;
+   border: 1px solid #ccc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+ 
+}
+.main1{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid #ccc; */
+}
