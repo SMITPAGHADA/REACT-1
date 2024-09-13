@@ -31,8 +31,8 @@ function Login() {
           <button onClick={logIn}>Log IN</button> */}
              <div className='w-[60%]  h-[500px]   flex justify-around items-center ms-[20%] mt-[70px] frist'  >
 
-<div className='main w-[50%] h-[100%] border border-[green] bg-[#fff] '>
-  <h1 className='   ms-[35%] mt-[40px] text-[20px] font-bold'>Log In Form</h1>
+<div data-aos="fade-right"  className='main w-[50%] h-[100%]  bg-[#fff] '>
+  <h1 className='   ms-[35%] mt-[40px] text-[20px] font-bold'>Log In </h1>
 
 
  
@@ -47,7 +47,7 @@ function Login() {
   </div>
 
 </div>
-<div className='second   w-[50%] h-[100%] border border-[#43306e] bg-[#495997]'>
+<div data-aos="fade-left" className='second   w-[50%] h-[100%] border border-[#43306e] bg-[#495997]'>
 <img src="https://cdni.iconscout.com/illustration/premium/thumb/mobile-login-illustration-download-in-svg-png-gif-file-formats--sign-profile-account-security-technology-and-protection-pack-science-illustrations-4707996.png?f=webp" alt="" />
 </div>
 

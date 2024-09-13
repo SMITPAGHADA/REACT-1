@@ -1,24 +1,37 @@
-import { getDoc,doc } from 'firebase/firestore'
+import { getDoc,doc, addDoc, collection } from 'firebase/firestore'
 import React, { useEffect, useState } from 'react'
 import { auth, firestore } from '../../firebaseConfig'
 import { onAuthStateChanged } from 'firebase/auth'
 
 function Dashbord() {
-    const[user1,setUser1]=("")
+    const[user1,setUser1]=useState(null)
+    const [uname,setUname] =useState("")
+    const [sub,setSub] =useState("")
+    const[userdata,setUserdata]=useState("")
       
+   const handleSubmit = async()=>{
+      await addDoc(collection(firestore,"students"),{
+       id:user.uid,
+       name: uname,
+       sub:sub
+      });
+      fetchuser("null");  
+    }
     useEffect(()=>{
  let change=onAuthStateChanged(auth,(user)=>{
     if(user){
-      fetchuser(user)
+      fetchuser(user1)
         setUser1(user)
        
     }
  })
 
 
+
+
     },[user1])
 
-    const[userdata,setUserdata]=useState("")
+  
 
     const fetchuser= async(user)=>{
 
@@ -30,11 +43,26 @@ function Dashbord() {
 
   return (
 <>
-<div className='w-[50%]  h-[400px]   flex justify-around items-center ms-[20%] mt-[70px] border '>
-<h1 className='text-[white] text-[20px]'>FirstName :- {userdata.fname}</h1>
-<h1 className='text-[white] text-[20px]'   >LatstName :- {userdata.lname}</h1>
-<h1 className='text-[white]  text-[20px]'>Email :- {userdata.email}</h1>
+<h1 className='mt-[140px] ms-[35%]  text-[35px] font-bold text-[white] drop-shadow-2xl'>  Welcome to {userdata.fname}'s Dashbord</h1>
+<div  className='w-[90%] h-[450px] flex   items-center border   mt-[20px] ms-[40px] drop-shadow-2xl *:'>
+
+<div  className='w-[30%]  h-[400px] ms-[50px] 
+ bg-[#495997] flex justify-center items-center border'><img className='' src="https://www.milnbank.org.uk/wp-content/uploads/2023/07/Artboard-52-1.png" alt="" /></div>
+
+<div    className='w-[70%]  h-[400px]    mr-[50px] bg-[#fff] '>
+  
+  <div className='inputfiled w-full h-[100px] border border-[black]'>
+
+  <input type="text" placeholder='enter name' className='border' onChange={(e)=>setUname(e.target.value)} />
+  <input type="text" placeholder='enter name' className='border' onChange={(e)=>setSub(e.target.value)} />
+
+  <button onClick={handleSubmit}>Submit</button>
+  </div>
+
+
 </div>
+</div>
+
 
 </>
 
