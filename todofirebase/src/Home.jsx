@@ -50,7 +50,7 @@ function Home() {
              })  
         }else{
          await updateDoc(doc(firestore,"users",record[editindex].docId),{
-            name,sub
+            name,lname,email
          })   
         }
    setName("")
