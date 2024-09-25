@@ -15,7 +15,7 @@ function Login() {
         setUser(current)
     }
  })
-    },[])
+ },[])
 
     const handleLog= async()=>{
      let user =await signInWithPopup(auth,provider)
@@ -25,7 +25,6 @@ function Login() {
 
   return (
     <div>
-
         {
             user ?
             <div> 

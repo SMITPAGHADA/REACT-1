@@ -40,4 +40,15 @@ body{
     background-color: #ff5100e6;
 }
 
+.btn:hover{
+    background-color: #1A5EBF;
+    color: white;
+    transition: 1s;
+}
  
+.btn1:hover{
+    background-color: #acc7ee00;
+    color: white;
+    transition: 1s;
+   
+} 

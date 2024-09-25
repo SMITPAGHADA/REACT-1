@@ -1,0 +1,163 @@
+
+[
+  {
+    "id": 1,
+    "name": "Organic Apple",
+    "category": "Fruits",
+    "price": 1.2,
+    "description": "Fresh organic apple from local farms.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIMSp2beqPKQv7pNlJYZ-IpMq4qv5Qa6Y56Q&s"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "category": "Fruits",
+    "price": 0.5,
+    "description": "Ripe bananas perfect for a snack.",
+    "image": "https://img.freepik.com/free-photo/delicious-bananas-nature_23-2150830570.jpg?size=626&ext=jpg&ga=GA1.1.1788614524.1719100800&semt=ais_user"
+  },
+  {
+    "id": 3,
+    "name": "Strawberries",
+    "category": "Fruits",
+    "price": 3.99,
+    "description": "Freshly picked organic strawberries.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQwcPFJirRTj0reoKH9ml9pu4rr9W2jwL4Vg&s"
+  },
+  {
+    "id": 4,
+    "name": "Whole Wheat Bread",
+    "category": "Bakery",
+    "price": 2.5,
+    "description": "Healthy and nutritious whole wheat bread.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDL9iBtBtKnvl2eak0ci6wnijTvuNaIJngQ&s"
+  },
+  {
+    "id": 5,
+    "name": "Cheddar Cheese",
+    "category": "Dairy",
+    "price": 5.0,
+    "description": "Sharp cheddar cheese aged for extra flavor.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKncbYLp1W3bzsUJWZPGsb_ozHi5-JrbKeEA&s"
+  },
+  {
+    "id": 6,
+    "name": "Organic Milk",
+    "category": "Dairy",
+    "price": 4.5,
+    "description": "Fresh organic milk from grass-fed cows.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjVbTi6aVbbAbdeEGYB5ksnYocCrdkdm-Ag&s"
+  },
+  {
+    "id": 7,
+    "name": "Greek Yogurt",
+    "category": "Dairy",
+    "price": 1.99,
+    "description": "Creamy Greek yogurt with high protein content.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRue5hN5LBETJjgtAryhMDhwX5fCRPavnw-sQ&s"
+  },
+  {
+    "id": 8,
+    "name": "Chicken boil",
+    "category": "Meat",
+    "price": 7.99,
+    "description": "Boneless skinless chicken breast, perfect for grilling.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUpil9T1_Nbi5HIHJJty2VzpVp0eAqDOZ2Q&s"
+  },
+  {
+    "id": 9,
+    "name": "Salmon Fillet",
+    "category": "Seafood",
+    "price": 12.99,
+    "description": "Fresh wild-caught salmon fillet.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTawcEecu55wFkY2Qiqy87XZ403P-7cvlvoA&sc"
+  },
+  {
+    "id": 10,
+    "name": "Almonds",
+    "category": "Snacks",
+    "price": 6.99,
+    "description": "Raw almonds packed with nutrients and flavor.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdI5G2xZefMu2M2HbfW_m24UyUX0AnVsfyBg&s"
+  },
+  {
+    "id": 11,
+    "name": "Peanut Butter",
+    "category": "Snacks",
+    "price": 3.99,
+    "description": "Creamy peanut butter, perfect for sandwiches.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52Q-6-jx2Ac4xkOxjLEhgILMGq1psxKeErg&s"
+  },
+  {
+    "id": 12,
+    "name": "Honey",
+    "category": "Condiments",
+    "price": 4.99,
+    "description": "Pure organic honey, a natural sweetener.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoPNlw_-o-apEgrK9AKLt8Ts9xaqNBr013pg&s"
+  },
+  {
+    "id": 13,
+    "name": "Olive Oil",
+    "category": "Condiments",
+    "price": 8.99,
+    "description": "Extra virgin olive oil, cold-pressed for purity.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbp44xJGMZbB_Tlqt_aI17FMZ3tt9CrVQG5w&s"
+  },
+  {
+    "id": 14,
+    "name": "Brown Rice",
+    "category": "Grains",
+    "price": 2.99,
+    "description": "Whole grain brown rice, perfect for a healthy diet.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUJa3sE_0xmmkqTbJ3urFVUKkheX1mauaApA&s"
+  },
+  {
+    "id": 15,
+    "name": "Quinoa",
+    "category": "Grains",
+    "price": 4.5,
+    "description": "Organic quinoa, a high-protein grain.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPlVZTaw55aQFf28UYggzRrRLrcq4VSUtedA&sa"
+  },
+  {
+    "id": 16,
+    "name": "Spaghetti",
+    "category": "Pasta",
+    "price": 1.5,
+    "description": "Classic Italian spaghetti made from durum wheat.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBhlfuq-ZUYstjaS7pHKIc0XJFD1Mb2tUIjA&s"
+  },
+  {
+    "id": 17,
+    "name": "Tomato Sauce",
+    "category": "Canned Goods",
+    "price": 2.99,
+    "description": "Rich tomato sauce made from ripe tomatoes.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZBmNoupBwGx2DKUXranY0JcDAaco7MaOHgw&s"
+  },
+  {
+    "id": 18,
+    "name": "Black Beans",
+    "category": "Canned Goods",
+    "price": 1.99,
+    "description": "Organic black beans, high in protein and fiber.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQPegU8Gsd-iIhU97aDozPRP9-hAWwNWlkA&s"
+  },
+  {
+    "id": 19,
+    "name": "Canned Tuna",
+    "category": "Seafood",
+    "price": 2.5,
+    "description": "Sustainably caught canned tuna in olive oil.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgn_lZXN2F7msfGYB2yjsvc4oabmtr44Y58A&s"
+  },
+  {
+    "id": 20,
+    "name": "Orange Juice",
+    "category": "Beverages",
+    "price": 3.99,
+    "description": "Freshly squeezed orange juice, no added sugar.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRagHJvxhX7MkXIsBGABeYPIApSsCvUM92Azg&s"
+  }
+]
